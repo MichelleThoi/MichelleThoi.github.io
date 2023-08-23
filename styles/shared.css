@@ -4,8 +4,18 @@
     font: Helvetica;
 }
 
-p {
-    font-size: 17px;
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+h1, p, a {
+    height: fit-content;
+    width: fit-content;
+    text-align: left;
+    vertical-align: middle;
 }
 
 .header {
@@ -16,67 +26,6 @@ p {
     top: 0;
 }
 
-h1, p, a {
-    height: fit-content;
-    width: fit-content;
-    text-align: left;
-    vertical-align: middle;
-}
-
-h1 {
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-
-.container {
-    display: flex;
-    height: 100vh;
-}
-
-#intro {
-    width: 300px;
-}
-
-.welcome {
-    display: flex;
-    width: fit-content;
-}
-
-.greeting_container {
-    height: fit-content;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-left: 15px;
-}
-
-#profilePicture {
-    border-radius: 50%;
-    width: 150px;
-    margin-left: 30%;
-    margin-top: 75px;
-    border: 5px solid gray;
-    padding: 0;
-}
-
-.info_container {
-    display: flex;
-    margin-left: 10px;
-    padding-bottom: 5px;
-}
-
-.navigation, .title {
-    color: black;
-    text-decoration: none;
-}
-
-.navigation {
-    font-size: 3vh;
-    padding-left: 20px;
-    padding-bottom: 10px;
-}
-
 .menu {
     display: block;
     width: fit-content;
@@ -85,19 +34,36 @@ h1 {
     padding-bottom: 10px;
 }
 
-.open_dot, .closed_dot {
-    height: 15px;
-    width: 15px;
-    border: 2px solid black;
-    border-radius: 50%;
-    display: inline-block;
-    margin-bottom: 5px;
+.navigation {
+    font-size: 3vh;
+    padding-left: 20px;
+    padding-bottom: 10px;
 }
 
-.open_dot {
+.navigation, .title {
+    color: black;
+    text-decoration: none;
+}
+
+.heading {
+    display: flex;
+}
+
+#back_button {
     background-color: #cce6fd;
+    width: 75px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 7px;
+    font-weight: bold;
 }
 
-.closed_dot {
-    background-color: white;
+#back_button:hover {
+    background-color: #9eb3c6;
+}
+
+.page_title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }

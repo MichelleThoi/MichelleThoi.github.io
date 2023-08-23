@@ -1,7 +1,7 @@
 .home_container {
     display: block;
     width: fit-content;
-    margin: 150px auto 0 auto;
+    margin: 10px auto 0 auto;
     background-color: #cce6fd;
     padding: 15px 30px;
     border: 5px solid grey;
@@ -25,4 +25,24 @@ p, #linkedin_link {
 h2 {
     width: fit-content;
     margin: 0 auto 10px auto;
+}
+
+.info_container {
+    display: flex;
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 475px) {
+    .home_container{
+        width: 80%;
+    }
+
+    p, #linkedin_link {
+        font-size: 15px;
+    }
+
+    .icon {
+        width: 20px;
+    }
 }

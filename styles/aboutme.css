@@ -13,6 +13,8 @@ h3 {
 }
 
 .welcome {
+    display: flex;
+    width: fit-content;
     padding: 0;
     margin: 30px auto;
 }
@@ -78,4 +80,32 @@ p {
 #homepage_photo {
     border-radius: 10px;
     height: 300px;
+}
+
+.open_dot, .closed_dot {
+    height: 15px;
+    width: 15px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.open_dot {
+    background-color: #cce6fd;
+}
+
+.closed_dot {
+    background-color: white;
+}
+
+@media only screen and (max-width: 1015px) {
+    .open_dot, .closed_dot {
+        height: 10px;
+        width: 10px;
+    }
+
+    .skills {
+        font-size: 15px;
+    }
 }

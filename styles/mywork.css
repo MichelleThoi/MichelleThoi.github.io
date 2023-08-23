@@ -1,14 +1,25 @@
-.screenshots, video {
-    height: 175px;
-    width: auto;
-    margin: 5px;
+h2 {
+    background-color: #cce6fd;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    padding-top: 10px;
+}
+
+h2, p {
+    background-color: transparent;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .work_container {
     width: fit-content;
     display: flex;
     margin: 30px auto;
-
 }
 
 .description {
@@ -23,26 +34,10 @@
     margin: 10px auto;
 }
 
-h2 {
-    background-color: #cce6fd;
-    margin: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-h3 {
-    padding-top: 10px;
-}
-
 .work_img {
     background: none;
-    width: 500px;
+    width: 100%;
 }
-
-/* .work_img:hover {
-    background: darkgrey;
-    filter: blur(4px);
-} */
 
 .image_container {
     height: fit-content;
@@ -51,24 +46,13 @@ h3 {
     display: flex;
 }
 
-/* .image_text {
-    position: relative;
-    left: 50%;
-    top: 50%;
-} */
-
-h2, p {
-    background-color: transparent;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .image {
     background-color: lightgrey;
     padding-bottom: 10px;
-    margin-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 20px;
+    width: 45%;
 }
 
 .image:hover {
@@ -105,40 +89,14 @@ img {
     text-decoration: underline;
 }
 
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content/Box */
-  .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-  }
-  
-  /* The Close Button */
-  .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
+ @media only screen and (max-width: 1160px) {
+    .work_img{
+        height: 225px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .work_img{
+        height: 175px;
+    }
+}
