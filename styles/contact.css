@@ -1,0 +1,28 @@
+.home_container {
+    display: block;
+    width: fit-content;
+    margin: 150px auto 0 auto;
+    background-color: #cce6fd;
+    padding: 15px 30px;
+    border: 5px solid grey;
+    border-radius: 10px;
+}
+
+p, #linkedin_link {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.icon {
+    width: 30px;
+}
+
+#contact {
+    text-decoration: underline;
+}
+
+h2 {
+    width: fit-content;
+    margin: 0 auto 10px auto;
+}

@@ -1,0 +1,81 @@
+h2 {
+    background-color: #cce6fd;
+    margin: 0;
+    margin: 0 0 0 10px;
+}
+
+h3 {
+    text-align: left;
+}
+
+.content_container {
+    width: 40vw;
+}
+
+.welcome {
+    padding: 0;
+    margin: 30px auto;
+}
+
+#greeting {
+    padding: 10px 0 10px 5px;
+    border-radius: 10px;
+}
+
+p {
+    width: 100%;
+}
+
+.about {
+    padding: 15px;
+    width: 100%;
+}
+
+.skills_heading {
+    margin: 10px;
+    background-color: white;
+}
+
+.group_container {
+    display: flex;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills_group {
+    display: flex;
+}
+
+#aboutme {
+    text-decoration: underline;
+}
+
+.group {
+    border: 2px solid black;
+    margin: 30px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.section_container {
+    padding: 10px;
+}
+
+.skills {
+    padding: 10px 0;
+}
+
+.skills_container {
+    background-color: #cce6fd;
+}
+
+.section_header {
+    padding: 20px 20px 0 20px;
+}
+
+#homepage_photo {
+    border-radius: 10px;
+    height: 300px;
+}
