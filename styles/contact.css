@@ -2,14 +2,19 @@
     display: block;
     width: fit-content;
     margin: 10px auto 0 auto;
-    background-color: #cce6fd;
+    background-color: #96D3EA;
     padding: 15px 30px;
     border: 5px solid grey;
     border-radius: 10px;
 }
 
+#linkedin_link {
+    color: black;
+    text-decoration: none;
+}
+
 p, #linkedin_link {
-    font-size: 20px;
+    font-size: 18px;
     padding-left: 10px;
     padding-top: 5px;
 }
@@ -22,9 +27,14 @@ p, #linkedin_link {
     text-decoration: underline;
 }
 
-h2 {
+h2, h3 {
     width: fit-content;
-    margin: 0 auto 10px auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    margin-bottom: 10px;
 }
 
 .info_container {

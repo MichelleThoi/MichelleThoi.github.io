@@ -20,6 +20,7 @@ h3 {
 }
 
 #greeting {
+    background-color: #4ab1d8;
     padding: 10px 0 10px 5px;
     border-radius: 10px;
 }
@@ -70,10 +71,11 @@ p {
 }
 
 .skills_container {
-    background-color: #cce6fd;
+    background-color: #4ab1d8;
 }
 
 .section_header {
+    background-color: #4ab1d8;
     padding: 20px 20px 0 20px;
 }
 

@@ -19,7 +19,7 @@ h1, p, a {
 }
 
 .header {
-    background-color: #cce6fd;
+    background-color: #4ab1d8;
     width: 100%;
     margin: 0;
     left: 0;
@@ -35,22 +35,26 @@ h1, p, a {
 }
 
 .navigation {
-    font-size: 3vh;
-    padding-left: 20px;
+    font-size: 20px;
+    padding-left: 40px;
     padding-bottom: 10px;
 }
 
-.navigation, .title {
-    color: black;
-    text-decoration: none;
+.navigation:hover, .title:hover {
+    cursor: pointer;
 }
+
+.navigation, .title {
+    color: white;
+    text-decoration: none;
+} 
 
 .heading {
     display: flex;
 }
 
 #back_button {
-    background-color: #cce6fd;
+    background-color: #cce6fd;;
     width: 75px;
     margin: 10px;
     padding: 10px;
@@ -59,11 +63,13 @@ h1, p, a {
 }
 
 #back_button:hover {
-    background-color: #9eb3c6;
+    background-color: #a9bfd2;
+    cursor: pointer;
 }
 
 .page_title {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    font-size: 25px;
 }
