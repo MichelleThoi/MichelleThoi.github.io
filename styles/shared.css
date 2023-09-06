@@ -12,6 +12,10 @@ h1 {
     padding-top: 10px;
 }
 
+p, ul {
+    font-size: 20px;
+}
+
 h1, p, a {
     height: fit-content;
     width: fit-content;
