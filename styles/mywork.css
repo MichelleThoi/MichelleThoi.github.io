@@ -90,6 +90,10 @@ img {
     text-decoration: underline;
 }
 
+.category {
+    text-align: center;
+}
+
  @media only screen and (max-width: 1160px) {
     .work_img{
         height: 225px;

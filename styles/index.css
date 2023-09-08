@@ -82,14 +82,12 @@ hr {
 }
 
 .home_buttons {
-    /* background-color: #cce6fd; */
     background-color: #cce6fd;
     font-size: 17px;
     border-radius: 10px;
     height: 50px;
     width: 40%;
     margin: 10px;
-    padding: 10px;
 }
 
 .home_buttons:hover {
@@ -143,4 +141,21 @@ img {
 .category {
     color: #395159;
     margin: 0 auto;
+}
+
+@media only screen and (max-width: 500px) {
+
+    #homepage_photo {
+        height: 150px;
+    }
+
+    #intro {
+        font-size: 17px;
+        width: 250px;
+    }
+
+    .home_buttons {
+        height: 40px;
+        padding-bottom: 3px;
+    }
 }

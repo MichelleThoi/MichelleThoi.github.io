@@ -111,3 +111,34 @@ p {
         font-size: 15px;
     }
 }
+
+@media only screen and (max-width: 880px) {
+    .group_container {
+        flex-direction: column;
+    }
+
+    .open_dot, .closed_dot {
+        height: 15px;
+        width: 15px;
+    }
+
+    .skills {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .welcome {
+        flex-direction: column;
+    }
+
+    .content_container {
+        width: 70vw;
+    }
+
+    #homepage_photo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
