@@ -82,6 +82,7 @@ p {
 #homepage_photo {
     border-radius: 10px;
     height: 300px;
+    
 }
 
 .open_dot, .closed_dot {
@@ -138,7 +139,10 @@ p {
     }
 
     #homepage_photo {
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto 10px auto;
+    }
+
+    #greeting {
+        margin: 0;
     }
 }

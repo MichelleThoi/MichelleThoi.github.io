@@ -48,11 +48,7 @@ h3 {
         width: 80%;
     }
 
-    p, #linkedin_link {
-        font-size: 15px;
-    }
-
-    .icon {
-        width: 20px;
+    .info_container {
+        margin-left: 0;
     }
 }
